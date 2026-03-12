@@ -59,9 +59,9 @@ f = (np.sinh(k*(z + d)))**2
 
 Id = np.trapz(f, z)
 
-Fd = Cd * 1/2 * rho * D * (a**2 * omega**2) / (np.sinh(k*d))**2 * sin**2 * Id / 1000
+Fd = Cd * 1/2 * rho * D * (a**2 * omega**2) / (np.sinh(k*d))**2 * cos * Id / 1000
 
-print(f'Vertical Wave Induced Fd = {Fd} kN')
+print(f'Vertical Wave Induced Fd = {Fd} kN') # should be 33
 
 #%%
 # XZ Plane - parallel to flow
