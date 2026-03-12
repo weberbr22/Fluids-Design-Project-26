@@ -6,3 +6,8 @@ Created on Thu Mar 12 16:02:05 2026
 @author: rexwb
 """
 
+
+
+import numpy as np 
+import matplotlib.pyplot as plt 
+
