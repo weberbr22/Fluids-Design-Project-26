@@ -23,6 +23,3 @@ x4 = 30/(np.cos(theta_rad))
 a = 6 
 omega = (2*np.pi)/10
 k = 0.0429 
-
-
-
